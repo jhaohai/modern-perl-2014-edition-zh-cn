@@ -6,7 +6,7 @@ Perl 最初作为一个简单的系统管理工具出现在1987年。虽然它�
 
 在 Perl 的悠久历史--尤其是19年的 Perl 5--我们对于什么是优秀的 Perl 程序的理解发生了改变。尽管你可以不利用语言提供的任何便利写出高效的程序，但是整个 Perl 社区有着创新、借鉴、增强、精良的观念并且提供给任何愿意学习它们的人们。
 
-## 运行 Modern Perl
+## 使用 Modern Perl
 
 来自 [CPAN](https://metacpan.org/pod/CPAN) `Modern::Perl` 模块会让 Perl 警告含糊不清的结构以及书写，并且启用现代 Perl 版本中引入的新的特性。除非特别说明，以下的代码片段：
 
@@ -22,7 +22,7 @@ Perl 最初作为一个简单的系统管理工具出现在1987年。虽然它�
     use 5.016;      # implies "use strict;"
     use warnings;
     use autodie;
-    
+
 有些示例使用了试验性函数比如 `ok()`，`like()`， `is()` [testing](https://metacpan.org/pod/Test::More)，这些程序可遵循以下模式：
 
     #!/usr/bin/env perl
@@ -33,10 +33,10 @@ Perl 最初作为一个简单的系统管理工具出现在1987年。虽然它�
     # example code here
 
     B<done_testing();>
-    
+
 当前稳定的 Perl 版本是 Perl 5.18。如果你使用的更早些的版本，对于书中的某些示例你可能需要更改才能运行。本书中的示例能完好运行在 Perl 5.14.0 以及更新的版本上，但是我们推荐使用至少 Perl 5.16。尽管所谓的 “Modern Perl” 指的是 Perl 5.10.1 及以后的版本，但是又很多后来新加的特性是现代开发中必不可少的。
 
-如果你还没有安装 Perl （或者安装的版本过于陈旧），你可以自己安装一个更新的版本。对于 Windows 用户，可以从 http://www.strawberryperl.com 下载 Strawberry Perl 或者从 http://www.activestate.com/activeperl 下载 ActivePerl。其他已经预装 Perl （和 C 编译器以及其他开发工具）的操作系统的用户可以安装 CPAN 模块 `App::perlbrew`。 安装指南参见 https://metacpan.org/pod/App::perlbrew。
+如果你还没有安装 Perl （或者安装的版本过于陈旧），你可以自己安装一个更新的版本。对于 Windows 用户，可以从 http://www.strawberryperl.com 下载 Strawberry Perl 或者从 http://www.activestate.com/activeperl 下载 ActivePerl。其他已经预装 Perl （和 C 编译器以及其他开发工具）的操作系统的用户可以安装 CPAN 模块 `App::perlbrew`。 安装指南参见 https://metacpan.org/pod/App::perlbrew 。
 
 `perlbrew` 允许你同时安装管理多个版本的 Perl。这使得你可以在多个版本间自由切换，将 Perl 和 CPAN 安装到你的主目录并且不影响系统自带的 Perl。如果你曾经有过向你的系统管理员请求权限去安装软件的经历，那么你就知道这会简单许多。
 
