@@ -22,4 +22,6 @@ Perl 有着文档的文化传统。`perldoc`工具是完整的 Perl 安装的一
     perldoc perltoc
     perldoc Moose::Manual
     
-第一个例子显示了`List::Util`模块内嵌的文档。第二个例子显示了一个纯文档文件，在这个例子里是核心文档的目录表。第三个例子显示了一个 CPAN 发行版 [moose](https://metacpan.org/release/Moose) 的内置的纯文档文件。
+第一个例子显示了`List::Util`模块内嵌的文档。第二个例子显示了一个纯文档文件，在这个例子里是核心文档的目录表。第三个例子显示了一个 CPAN 发行版 [moose](https://metacpan.org/release/Moose) 的内置的纯文档文件。`perldoc`隐藏了这些细节，读取诸如 `Data::Dumper` 核心库中的文档与从 CPAN 中安装的是没有区别的。这种高度的一致性会让你受益--Perl 文化非常重视文档以至于那些外部的库都仿照语言核心文档的模式。
+
+标准的文档模板包含了模块的描述，使用的说明案例,以及详细的模块和其接口的说明。尽管文档的数量因作者而异，但是文档格式都高度的一致。
