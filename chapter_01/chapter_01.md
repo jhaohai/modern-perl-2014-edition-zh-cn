@@ -26,8 +26,10 @@ Perl 有着文档的文化传统。`perldoc`工具是完整的 Perl 安装的一
 
 标准的文档模板包含了模块的描述，使用的说明案例,以及详细的模块和其接口的说明。尽管文档的数量因作者而异，但是文档格式都高度的一致。
 
-> 小贴士：如何阅读文档
+> 如何阅读文档
+
 > Perl 有许多文档，那该从哪儿开始？
+
 > `perldoc perltoc` 展示了核心文档的内容目录。`perldoc perlfaq` 展示了 Perl 常见问题的内容目录。`perldoc perlop` 和 `perldoc perlsyn` 分别是 Perl 运算符和语法结构的文档。`perldoc perldiag` 揭示了 Perl 的警告消息。`perldoc perlvar` 列出了所有 Perl 的符号变量。略读这些文档会让你对这门语言有个很好的概览。
 
 `perldoc` 工具还有很多别的功能（参见 `perldoc perldoc`）。如果要搜索 Perl FAQ，使用 `-q` 选项外加关键字。比如说，`perldoc -q sort` 返回三个问题：_How do I sort an array by
