@@ -25,3 +25,12 @@ Perl 有着文档的文化传统。`perldoc`工具是完整的 Perl 安装的一
 第一个例子显示了`List::Util`模块内嵌的文档。第二个例子显示了一个纯文档文件，在这个例子里是核心文档的目录表。第三个例子显示了一个 CPAN 发行版 [moose](https://metacpan.org/release/Moose) 的内置的纯文档文件。`perldoc`隐藏了这些细节，读取诸如 `Data::Dumper` 核心库中的文档与从 CPAN 中安装的是没有区别的。这种高度的一致性会让你受益--Perl 文化非常重视文档以至于那些外部的库都仿照语言核心文档的模式。
 
 标准的文档模板包含了模块的描述，使用的说明案例,以及详细的模块和其接口的说明。尽管文档的数量因作者而异，但是文档格式都高度的一致。
+
+Perl 有许多文档，那该从哪儿开始？
+
+`perldoc perltoc` 展示了核心文档的内容目录。`perldoc perlfaq` 展示了 Perl 常见问题的内容目录。`perldoc perlop` 和 `perldoc perlsyn` 分别是 Perl 运算符和语法结构的文档。`perldoc perldiag` 揭示了 Perl 的警告消息。`perldoc perlvar` 列出了所有 Perl 的符号变量。略读这些文档会让你对这门语言有个很好的概览。
+
+`perldoc` 工具还有很多别的功能（参见 `perldoc perldoc`）。如果要搜索 Perl FAQ，使用 `-q` 选项外加关键字。比如说 `perldoc -q sort` 返回三个问题：_How do I sort an array by
+(anything)?_，_How do I sort a hash (optionally by value instead of key)?_ 以及 _How can I always keep my hash sorted?_。
+
+
